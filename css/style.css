@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+.mainSection{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.mainSection h2{
+    font-size: 30px;
+    color: red;
+}
+.mainSection h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainSection p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.mainSection button{
+    font-size: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    border-color: red;
+    color: red;
+
+}
+.mainSection button:hover{
+    background-color:red;
+    color: white;
+    cursor: pointer;
+}
+.imageSection{
+    margin-top: 110px;
+    margin-left: 150px;
+}
+.imageSection img{
+    width: 500px;
+    animation: ahmed 2s linear infinite;
+}
+@keyframes ahmed {
+    0%{
+        transform: translate(0, -11px);
+    }
+    50%{
+        transform: translate(11px , 0);
+    }
+    100%{
+        transform: translate(0 , -11px);
+    }
+}
